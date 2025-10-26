@@ -1,11 +1,9 @@
-import HomeWrapper from './HomeWrapper.jsx';
+import PageWrapper from './PageWrapper.jsx';
 
 
 function HomePage(){
     return (
-        <HomeWrapper>
-            <HomeWrapper/>
-        </HomeWrapper>
+        <PageWrapper />
     );
 }
 

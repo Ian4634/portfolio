@@ -1,15 +1,15 @@
 
-import {useState} from "react";
+
 import {Link} from "react-router"
 import getLang from "../../utils/getLang";
 
 import './HomeHeader.css'
-function HomeHeader(){
-    const [language, setLanguage] = useState('en');
+function HomeHeader({language}){
+    
     return (
         <div className="home-header-container">
             <div className="portfolio-img">
-                <img src="/images/portfolioIMG.JPG" alt="" />
+                <img src="/images/snowboarding.JPG" alt="" />
             </div>
             <div className="message-container">
                 <div className="stand-out-message-div">

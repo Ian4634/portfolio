@@ -3,10 +3,10 @@ import {Link} from 'react-router'
 import getLang from '../../utils/getLang';
 
 import './Header.css';
-function Header(){
+function Header({language, setLanguage}){
     return (
         <div className="header-container">
-            <div className="name-section">{getLang("en", "name")}</div>
+            <div className="name-section">{getLang(language, "name")}</div>
             <div className="button-section">
                 <nav>
                     <Link to="/">home</Link>
