@@ -7,16 +7,51 @@
 
 }
 
+.middle-section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10vw;
+
+    width: 80%;
+    margin-top: 15vh;
+}
+
+.provided-service-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.provided-service{
+    font-family: monospace;
+    font-size: 2vw;
+    
+}
+
+.work{
+    font-size: 1vw;
+    color: orange;
+}
+
+.service-introduction{
+    font-family: monospace;
+
+    justify-content: end;
+    font-size: 1vw;
+}
+
 .display-section-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10vh;
 
-    justify-content: space-evenly;
+    justify-content: space-between;
     
     height: auto;
-    width:90%;
+    width:80%;
 
-    margin-top: 30vh;
+    margin-top: 15vh;
 }
