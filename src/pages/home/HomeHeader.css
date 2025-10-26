@@ -1,0 +1,74 @@
+.home-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50vh;
+    width: 100%;
+}
+
+.portfolio-img {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+
+    width: 65%;
+    height: 100%;
+}
+
+.stand-out-message-div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+
+    font-size: 4vw;
+    font-family: monospace;
+    color: #333333;
+
+    padding-left: 1vw;
+    padding-right: 4vw;
+
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+}
+
+.slogan-message{
+    color: #838383;
+    margin-bottom: 1vh;
+}
+
+.button-container{
+    margin-top: auto;
+}
+.contact-btn{
+    border-radius: 5px;
+    border-width: 0px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    color: #f8f8f8;
+    background-color: #E97451	;
+
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+img{
+    width: 80%;
+    height:100%;
+    object-fit: cover;
+    
+}

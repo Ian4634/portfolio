@@ -1,0 +1,10 @@
+Homepage
+    -- HomeWrapper(full screen)
+        -- HomeContainer(main body)
+            -- home-header-container
+                1. portfolioImg
+                2. message-container
+                    - stand-out-message
+                    - slogan
+                    - contact-btn
+            -- HomeBody

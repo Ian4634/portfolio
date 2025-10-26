@@ -1,0 +1,4 @@
+body {
+  margin: 0;       /* remove default spacing */
+  height: 100%;    /* make body and html fill viewport */
+}
