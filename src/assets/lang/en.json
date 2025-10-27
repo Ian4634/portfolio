@@ -1,9 +1,23 @@
 {
     "default": "default",
+    "languageButtonText": "EN/ZH",
     "headerWelcome": "Welcome to the Home Page",
     "standOutMessageTop":"Professional",
     "standOutMessageBottom": "Versatile X Experienced",
     "slogan":"I deliver professional work with passion",
+    "work":"work",
+    "aCollectionOf":"A collection of",
+    "servicesIProvide":"services I provide",
+    "serviceIntro":"I have worked in all industries and contributed to participated works.",
     "young":"YOUNG",
-    "name":"Ian Cheng"
+    "name":"Ian Cheng",
+    "home":"home",
+    "snowboard":"snowboard",
+    "surfing":"surfing",
+    "table tennis":"table tennis",
+    "software development":"software development",
+    "SnowboardInstructor":"Snowboard Instructor",
+    "SurfInstructor":"Surf Instructor",
+    "TableTennis Coach":"Table Tennis Coach",
+    "SoftwareDeveloper":"Software Developer"
 }

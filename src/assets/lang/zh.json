@@ -1,9 +1,23 @@
 {
     "default": "預設",
+    "languageButtonText": "中/英",
     "headerWelcome": "歡迎來到首頁",
     "standOutMessageTop":"專業",
     "standOutMessageBottom": "全能 X 經驗豐富",
     "slogan":"提供專業且熱情的服務",
+    "work":"工作",
+    "aCollectionOf":"一些",
+    "servicesIProvide":"我提供的服務",
+    "serviceIntro":"擁有多項專業，曾在各行各業工作並參與多項專案。教學經驗更是從十五歲開始教衝浪積累至今。",
     "young":"年輕",
-    "name":"鄭亦恩"
+    "name":"鄭亦恩",
+    "home":"首頁",
+    "snowboard":"滑雪",
+    "surfing":"衝浪",
+    "table tennis":"桌球",
+    "software development":"軟體開發",
+    "SnowboardInstructor":"滑雪教練",
+    "SurfInstructor":"衝浪教練",
+    "TableTennis Coach":"桌球教練",
+    "SoftwareDeveloper":"軟體工程師"
 }

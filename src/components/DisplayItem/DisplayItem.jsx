@@ -1,3 +1,4 @@
+import getLang from '../../utils/getLang';
 import './DisplayItem.css';
 
 function DisplayItem({language, imgSrc, title}){
@@ -6,7 +7,7 @@ function DisplayItem({language, imgSrc, title}){
             <div className="display-image-container">
                 
                 <img className="display-image" src={imgSrc} alt={imgSrc} />
-                <div className="title">{title}</div>
+                <div className="title">{getLang(language, title)}</div>
             </div>
             
         </div>
