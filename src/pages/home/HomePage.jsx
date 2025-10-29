@@ -1,9 +1,9 @@
-import PageWrapper from './PageWrapper.jsx';
+import PageWrapper from '../../components/PageWrapper/PageWrapper.jsx';
+import HomeContainer from './HomeContainer.jsx';
 
-
-function HomePage(){
+function HomePage({language, setLanguage}) {
     return (
-        <PageWrapper />
+        <PageWrapper PageContainer={HomeContainer} language={language} setLanguage={setLanguage}/>
     );
 }
 

@@ -1,6 +1,7 @@
 .display-item{
     overflow: hidden;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .display-item:hover {

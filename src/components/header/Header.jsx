@@ -18,10 +18,10 @@ function Header({language, setLanguage}){
             <div className="button-section">
                 <nav>
                     <Link to="/">{getLang(language, "home")}</Link>
-                    <Link to="/">{getLang(language, "snowboard")}</Link>
-                    <Link to="/">{getLang(language, "surfing")}</Link>
-                    <Link to="/">{getLang(language, "table tennis")}</Link>
-                    <Link to="/">{getLang(language, "software development")}</Link>
+                    <Link to="/SnowboardInstructor">{getLang(language, "snowboard")}</Link>
+                    <Link to="/SurfInstructor">{getLang(language, "surfing")}</Link>
+                    <Link to="/TableTennisCoach">{getLang(language, "table tennis")}</Link>
+                    <Link to="/SoftwareDeveloper">{getLang(language, "software development")}</Link>
                 </nav>
             </div>
             <div className="language-section">
