@@ -1,0 +1,4 @@
+This component acts as the outer layer of the a web including
+    1. The gray background
+    2. The header bar 
+    3. The pageContainer which is a component passed in as a prop for the body content
