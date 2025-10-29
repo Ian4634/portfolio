@@ -1,10 +1,10 @@
-import HomeHeader from "./HomeHeader"
+import PageHeader from "../../components/PageHeader/PageHeader";
 import HomeBody from "./HomeBody";
 import './HomeContainer.css';
 function HomeContainer({language}){
     return (
         <div className="home-container">
-            <HomeHeader language={language}/>
+            <PageHeader language={language} page="home" imageSrc="/images/portfolioIMG.JPG"/>
             <HomeBody language={language}/>
         </div>
     ); 
