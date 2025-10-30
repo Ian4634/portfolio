@@ -1,0 +1,38 @@
+.instructor-container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.8;
+  color: #333;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+.tab:hover {
+  color: #007bff;
+}
+
+.tab.active {
+  color: #007bff;
+  border-bottom: 3px solid #007bff;
+  font-weight: bold;
+}
+
+.tab-content {
+  padding: 10px 0;
+  width: 100%;
+}

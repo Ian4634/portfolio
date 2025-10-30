@@ -14,10 +14,10 @@ function HomeBody({language}){
             </div>
 
             <div className="display-section-container">
-                <DisplayItem language={language} title="SnowboardInstructor" imgSrc="/images/snowboard/snowboarding.JPG"/>
-                <DisplayItem language={language} title="SurfInstructor" imgSrc="/images/surf/surfing.JPG"/>
-                <DisplayItem language={language} title="TableTennis Coach" imgSrc="/images/tabletennis/tabletennis.JPG"/>
-                <DisplayItem language={language} title="SoftwareDeveloper" imgSrc="/images/SWE/portfolioIMG.JPG"/>
+                <DisplayItem language={language} title="SnowboardInstructor" imgSrc="/portfolio/images/snowboard/snowboarding.JPG"/>
+                <DisplayItem language={language} title="SurfInstructor" imgSrc="/portfolio/images/surf/surfing.JPG"/>
+                <DisplayItem language={language} title="TableTennis Coach" imgSrc="/portfolio/images/tabletennis/tabletennis.JPG"/>
+                <DisplayItem language={language} title="SoftwareDeveloper" imgSrc="/portfolio/images/SWE/portfolioIMG.JPG"/>
             </div>
         </div>
     );

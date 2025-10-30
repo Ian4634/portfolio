@@ -4,7 +4,7 @@ import './HomeContainer.css';
 function HomeContainer({language}){
     return (
         <div className="home-container">
-            <PageHeader language={language} page="home" imageSrc="/images/portfolioIMG.JPG"/>
+            <PageHeader language={language} page="home" imageSrc="/portfolio/images/portfolioIMG.JPG"/>
             <HomeBody language={language}/>
         </div>
     ); 
