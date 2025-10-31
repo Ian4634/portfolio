@@ -1,4 +1,4 @@
-.instructor-container {
+.coach-intro-container {
   width: 80%;
   margin: 0 auto;
   font-family: "Noto Sans TC", sans-serif;
@@ -35,4 +35,10 @@
 .tab-content {
   padding: 10px 0;
   width: 100%;
+}
+
+p{
+  white-space: 
+  pre-line;
+  font-family: monospace;
 }

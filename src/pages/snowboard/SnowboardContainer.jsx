@@ -6,7 +6,7 @@ function SnowboardContainer({language}){
     return (
         <div className="snowboard-container">
             <PageHeader language={language} page="snowboard" imageSrc="/portfolio/images/snowboard/snowboarding.JPG"/>
-            <SnowboardBody />
+            <SnowboardBody language={language}/>
         </div>
     )
 }
